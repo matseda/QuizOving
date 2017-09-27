@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
+    <script src="Spm.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">Davidsens quiz</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="LagQuiz.html">Lag quiz</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Quiz oversikt</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<form class="Spm1">
+    <p><b>Registrer spørsmål under</b></p>
+    <p><b>Hver gang du trykker på knappen registreres spørsmålet.</b></p>
+    <p><b>Gå ut av siden ved hjelp av menyen når alle spørsmål er registrert, du finner nå quizen i oversikten</b></p>
+    <div class="form-group form-config2">
+        <label for="inputSpm" class="col-form-label">Spørsmål</label>
+        <input type="text" class="form-control" id="inputSpm">
+    </div>
+    <div class="form-row form-config2">
+        <div class="form-group col-md-6">
+            <label for="inputAlt1" class="col-form-label">Alternativ 1</label>
+            <input type="text" class="form-control" id="inputAlt1">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputAlt2" class="col-form-label">Alternativ 2</label>
+            <input type="text" class="form-control" id="inputAlt2">
+        </div>
+    </div>
+    <div class="form-row form-config2">
+        <div class="form-group col-md-6">
+            <label for="inputAlt3" class="col-form-label">Alternativ 3</label>
+            <input type="text" class="form-control" id="inputAlt3">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputAlt4" class="col-form-label">Alternativ 4</label>
+            <input type="text" class="form-control" id="inputAlt4">
+        </div>
+    </div>
+    <div class="form-group form-config">
+        <label class="form-control-label" for="riktig">Riktig Alternativ</label>
+    </div>
+    <select id="riktig">
+    <option value=1>Alternativ 1</option>
+    <option value=2>Alternativ 2</option>
+    <option value=3>Alternativ 3</option>
+    <option value=4>Alternativ 4</option>
+</select>
+    <div class="form-group col-md-6">
+        <label for="inputTid" class="col-form-label"> Tid</label>
+        <input type="text" class="form-control" id="inputTid">
+    </div>
+    <button id="regSpm">Registrer Spørsmål</button>
+
+</form>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>

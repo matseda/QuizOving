@@ -1,0 +1,67 @@
+body{
+    background-color: wheat;
+}
+
+table td{
+    padding:5px;
+    margin:5px;
+    height:20px;
+    border:1px solid #ccc;
+}
+
+#Alternativer{
+    height:400px;
+    width:350px;
+}
+
+.alt:hover{
+    background-color: slategray;
+}
+
+.table-hover{
+    background-color: grey;
+}
+
+.form-config{
+    width:200px;
+}
+
+.form-config2{
+    width: 500px;
+    right: 500px;
+}
+
+.regBoks{
+    margin: auto;
+    width: 40%;
+    border: 3px;
+    padding: 10px;
+}
+
+.scoreForm{
+    margin: auto;
+    width: 20%;
+    border: 3px;
+    padding: 10px;
+}
+
+.Spm1{
+    margin: auto;
+    width: 40%;
+    border: 3px;
+    padding: 10px;
+}
+
+.Spm{
+    float:left;
+    margin: auto;
+    border: 3px;
+    padding: 10px;
+}
+
+.ScoreBoard{
+    float:right;
+    margin:auto;
+    border: 3px;
+    padding: 10px;
+}
